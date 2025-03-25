@@ -11,7 +11,7 @@
 .hero-section {
   position: relative;
   height: 700px;
-  background-image: url('../public/images/r1.jpg');
+  background-image: url('../dist/images/r1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -278,7 +278,7 @@
   /* margin: 0 auto; */
   
   padding: 170px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../public/images/r2..jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../dist/images/r2..jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

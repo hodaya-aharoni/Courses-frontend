@@ -63,7 +63,7 @@ const CourseCarousel = () => {
               onMouseLeave={handleCourseLeave}
             >
               <img
-                src={`http://localhost:8000/uploads/${course.img}`}
+                src={`https://skillhub-1-a27y.onrender.com/uploads/${course.img}`}
                 alt={course.title}
                 className="course-image"
               />

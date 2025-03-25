@@ -87,9 +87,9 @@ const Cart= () => {
         </ScrollLink>
         <p style={{ marginTop: '30px', display: 'flex', justifyContent: 'start', alignItems: 'center' }}>
     We Accept: 
-    <img src="../public/images/mastercard.png" alt="Mastercard" style={{ margin: '0 5px', height: '20px', width: 'auto' }} />
-    <img src="../public/images/american-express.png" alt="American Express" style={{ margin: '0 5px', height: '30px', width: 'auto' }} />
-    <img src="../public/images/visa.png" alt="Visa" style={{ margin: '0 5px', height: '30px', width: 'auto' }} />
+    <img src="../dist/images/mastercard.png" alt="Mastercard" style={{ margin: '0 5px', height: '20px', width: 'auto' }} />
+    <img src="../dist/images/american-express.png" alt="American Express" style={{ margin: '0 5px', height: '30px', width: 'auto' }} />
+    <img src="../dist/images/visa.png" alt="Visa" style={{ margin: '0 5px', height: '30px', width: 'auto' }} />
 
 </p>      </div>
 

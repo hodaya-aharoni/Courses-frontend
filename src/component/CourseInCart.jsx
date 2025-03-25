@@ -23,7 +23,7 @@ const CourseInCart = ({ course, onDelete }) => {
             <td style={{ padding: '10px', width: '50%', height: "100px" }}>
                 <div style={{ display: "flex", gap: "12px", width: "100%" }}>
                     <IsChecked course={course} checked={course.checked} dis={false} />
-                    <img src={`../public/images/${course.img}`} width="100px" height="100px" alt={course.name} />
+                    <img src={`../dist/images/${course.img}`} width="100px" height="100px" alt={course.name} />
                     <div style={{ display: 'flex', flexDirection: 'column', marginTop: "14px" }}>
                         <strong style={{ marginBottom: "14px" }} >{course.name}</strong>
                         <p style={{ fontSize: "12px" }}><b> Open Date:</b> {course?.openingDate.substring(0, 10)}</p>
