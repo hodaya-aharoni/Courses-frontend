@@ -1,0 +1,140 @@
+.course-container {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(14, 13, 13);
+   
+   /* background: linear-gradient(120deg, #1a1a1a, #0a0a0a, #3d3b3b); */
+   /* background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; */
+   /* height: 350vh; */
+
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* gap: 50px; */
+  /* padding: 50px; */
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  /* background-color: rgba(240, 248, 255, 0); */
+
+  
+ 
+}
+
+.image-show {
+  margin-top: 2%;
+  margin-right: 5%;
+width: 380px;
+height: 500px;
+  object-fit: cover; /* לוודא שהתמונה ממלאת את השטח */
+}
+
+.course-content {
+  margin-top: 3%;
+
+  width: 500px;
+  /* flex: 1; */
+  text-align: start;
+  /* font-size: 18px; */
+}
+
+.course-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.course-content p {
+  margin-bottom: 8px;
+  color: white;
+}
+
+.course-locations {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  color: white;
+} 
+
+.course-locations span {
+  font-size: 16px;
+}
+
+.add-to-cart {
+  font-size: 18px;
+  /* background: none; */
+background-color:   white;
+  /* border: none; */
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* .add-to-cart:hover {
+  text-decoration: underline;
+}
+ */
+
+
+ .add-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background: white; /* רקע לבן */
+  color: black; /* טקסט שחור */
+  border: 2px solid black; /* מסגרת שחורה */
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-top: 5%;
+}
+
+.add-cart:hover {
+  
+  background: black;
+  color: white;
+  transform: scale(1.05); /* הגדלה קלה */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.add-cart:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+.courses-list-container {
+  position: absolute;
+  top: 120vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 10;
+  justify-content: center;
+}
+
+
+.other-color{
+  color: rgb(181, 154, 154);
+}

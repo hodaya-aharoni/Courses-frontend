@@ -1,0 +1,38 @@
+
+.pagination-numbers {
+  color: white; /* משנה את צבע המספרים ללבן */
+}
+
+
+/* שינוי צבע החיצים */
+.pagination-arrows {
+  color: white; /* משנה את צבע החיצים ללבן */
+}
+
+
+.breadcrumb-container {
+  margin-top: 105px;
+  margin-bottom: -90px;
+  margin-right: 73%;
+}
+
+.breadcrumb-link {
+  color: white;
+  margin-top: 50%;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-link + .breadcrumb-link {
+  margin-left: 5px;
+}
+
+
+
+.breadcrumb-arrow {
+  color: white;
+  margin-left: 5px;
+}
