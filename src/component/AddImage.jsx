@@ -4,7 +4,7 @@ import { addImage } from '../api/courseService.js'
 export const AddImage = ({ setNameImage, deafultImg }) => {
   // alert(deafultImg)
   const [image, setImage] = useState(null);
-  const [preview, setPreview] = useState(deafultImg != "" ? `https://skillhub-1-a27y.onrender.com/uploads/${deafultImg}` : ""); // כתובת התמונה לתצוגה
+  const [preview, setPreview] = useState(deafultImg != "" ? `${process.env.baseUrlUploads}${deafultImg}` : ""); // כתובת התמונה לתצוגה
 
 
   useEffect(() => {

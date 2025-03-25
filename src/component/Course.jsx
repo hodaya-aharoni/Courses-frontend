@@ -39,7 +39,7 @@ const Course = ({ course, onDelete,type ,setIsCourse}) => {
                 objectFit="cover"
                 width="30%"
                 height="246px"
-                src={`https://skillhub-1-a27y.onrender.com/uploads/${course?.img}`}
+                src={`${process.env.baseUrlUploads}${course?.img}`}
                 alt={`${course?.name} image`}
             />
 
