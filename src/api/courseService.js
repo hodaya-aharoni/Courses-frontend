@@ -1,22 +1,25 @@
 import axios from 'axios'
 
+const baseUrl = "https://skillhub-1-a27y.onrender.com/api/course"
+const baseUrlUpload = "https://skillhub-1-a27y.onrender.com/upload"
+
 
 
 //קבלת רשימת כל הקורסים
 export const getAllCourses = (pageNum) => {
-    return axios.get(`${process.env.baseUrl}api/course/?page=${pageNum}&limit=12`)
+    return axios.get(`${baseUrl}/?page=${pageNum}&limit=12`)
 }
 
 
 //קבלת קורס בודד  
 export const getCourse = (id) => {
-    return axios.get(`${process.env.baseUrl}api/course/${id}`)
+    return axios.get(`${baseUrl}/${id}`)
 }
 
 //אפשרות למחיקת קורס  
 export const deleteCourse = (id, token) => {
     console.log(token);
-    return axios.delete(`${process.env.baseUrl}api/course/${id}`, {
+    return axios.delete(`${baseUrl}/${id}`, {
         headers: {
             authorization: token
         }
@@ -26,7 +29,7 @@ export const deleteCourse = (id, token) => {
 //אפשרות להוספת קורס
 export const addCourse = (course, token) => {
     console.log(token);
-    return axios.post(`${process.env.baseUrl}api/course`, course, {
+    return axios.post(`${baseUrl}`, course, {
         headers: {
             authorization: token
         }
@@ -34,7 +37,7 @@ export const addCourse = (course, token) => {
 }
 
 export const updateCourse = (course, updateCourse, token) => {
-    return axios.put(`${process.env.baseUrl}api/course/${course._id}`, updateCourse, {
+    return axios.put(`${baseUrl}/${course._id}`, updateCourse, {
         headers: {
             authorization: token
         }
@@ -42,11 +45,11 @@ export const updateCourse = (course, updateCourse, token) => {
 }
 
 export const getTotalPages = () => {
-    return axios.get(`${baseUrl}api/course/getCount/?limit=12`)
+    return axios.get(`${baseUrl}/getCount/?limit=12`)
 }
 
 export const addImage = (data) => {
-    return axios.post(process.env.baseUrlUpload, data, {
+    return axios.post(baseUrlUpload, data, {
         headers: { "Content-Type": "multipart/form-data" },
       })
 }

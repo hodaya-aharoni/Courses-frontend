@@ -40,7 +40,7 @@ const ShowMoreCourse = ({ course, onDelete }) => {
                 objectFit="cover"
                 width="30%"
                 height="246px"
-                src={`${process.env.baseUrlUploads}${course?.img}`}
+                src={`https://skillhub-1-a27y.onrender.com/uploads/${course?.img}`}
                 alt={`${course?.name} image`}
             />
             <Box>
