@@ -6,7 +6,7 @@ import Cart from './pages/Cart'
 import { Routes, Route } from 'react-router-dom'
 import CourseDetails from './pages/CourseDetails'
 import { SignUp } from './pages/SignUp'
-import Login from './pages/LogIn'
+import Login from './pages/Login'
 import NavBar from './component/NavBar'
 
 import { loadStripe } from "@stripe/stripe-js";
