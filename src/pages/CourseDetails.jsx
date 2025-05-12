@@ -64,7 +64,7 @@ export const CourseDetails = () => {
 
       <div className="course-container">
 
-        <img className="image-show" src={`https://courses-fig4.onrender.com/uploads/${course?.img}`} alt={course?.name} />
+        <img className="image-show" src={`https://courses-store-spr0.onrender.com/uploads/${course?.img}`} alt={course?.name} />
 
         {/* טקסט בצד ימין */}
         <div className="course-content">

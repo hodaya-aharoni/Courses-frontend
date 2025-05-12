@@ -1,9 +1,10 @@
 import axios from 'axios'
 
-const baseUrl = "https://courses-fig4.onrender.com/api/course"
-const baseUrlUpload = "https://courses-fig4.onrender.com/upload"
+//const baseUrl = "https://courses-fig4.onrender.com/api/course"
+//const baseUrlUpload = "https://courses-fig4.onrender.com/upload"
 
-
+const baseUrl ="https://courses-store-spr0.onrender.com/api/course"
+const baseUrlUpload ="https://courses-store-spr0.onrender.com/upload"
 
 //קבלת רשימת כל הקורסים
 export const getAllCourses = (pageNum) => {

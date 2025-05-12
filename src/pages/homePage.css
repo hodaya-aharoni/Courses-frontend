@@ -11,7 +11,7 @@
 .hero-section {
   position: relative;
   height: 700px;
-  background-image: url('../dist/images/r1.jpg');
+  background-image: url('../public/images/r1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

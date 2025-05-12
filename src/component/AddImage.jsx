@@ -4,8 +4,8 @@ import { addImage } from '../api/courseService.js'
 export const AddImage = ({ setNameImage, deafultImg }) => {
   // alert(deafultImg)
   const [image, setImage] = useState(null);
-  const [preview, setPreview] = useState(deafultImg != "" ? `https://courses-fig4.onrender.com/uploads/${deafultImg}` : ""); // כתובת התמונה לתצוגה
-
+  const [preview, setPreview] = useState(deafultImg != "" ? `https://courses-store-spr0.onrender.com/uploads/${deafultImg}` : ""); // כתובת התמונה לתצוגה
+// `https://courses-fig4.onrender.com/uploads/${deafultImg}` : ""); 
 
   useEffect(() => {
     const storedImage = localStorage.getItem("selectedImage");

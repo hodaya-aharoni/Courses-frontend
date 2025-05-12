@@ -39,9 +39,11 @@ const Course = ({ course, onDelete,type ,setIsCourse}) => {
                 objectFit="cover"
                 width="30%"
                 height="246px"
-                src={`https://courses-fig4.onrender.com/uploads/${course?.img}`}
+                src={`https://courses-store-spr0.onrender.com/uploads/${course?.img}`}
+                    //   src={`https://courses-fig4.onrender.com/uploads/${course?.img}`}
                 alt={`${course?.name} image`}
             />
+            
 
             <Box>
 

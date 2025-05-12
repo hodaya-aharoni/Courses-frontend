@@ -96,7 +96,7 @@ const AddCourseForm = () => {
   ];
   const [image, setImage] = useState(null);
 
-  const [preview, setPreview] = useState(details?.course?.img ? `https://courses-fig4.onrender.com/uploads/${details.course.img}` : ""); // כתובת התמונה לתצוגה
+  const [preview, setPreview] = useState(details?.course?.img ? `https://courses-store-spr0.onrender.com/uploads/${details.course.img}` : ""); // כתובת התמונה לתצוגה
 
 
   useEffect(() => {

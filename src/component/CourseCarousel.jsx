@@ -63,7 +63,8 @@ const CourseCarousel = () => {
               onMouseLeave={handleCourseLeave}
             >
               <img
-                src={`https://courses-fig4.onrender.com/uploads/${course.img}`}
+                src={`https://courses-store-spr0.onrender.com/uploads/${course.img}`}
+                // src={`https://courses-fig4.onrender.com/uploads/${course.img}`}
                 alt={course.title}
                 className="course-image"
               />

@@ -1,7 +1,8 @@
 import axios from 'axios'
 
-const baseUrl = "https://courses-fig4.onrender.com/api/user"
+//const baseUrl = "https://courses-fig4.onrender.com/api/user"
 // const baseUrl="https://skillhub-1-a27y.onrender.com/api/user"
+const baseUrl ="https://courses-store-spr0.onrender.com/api/user"
 
 //אפשרות לכניסת משתמש
 export const login = (email,password) => {
