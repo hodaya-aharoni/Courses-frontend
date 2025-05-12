@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = "https://skillhub-1-a27y.onrender.com/api/course"
-const baseUrlUpload = "https://skillhub-1-a27y.onrender.com/upload"
+const baseUrl = "https://courses-fig4.onrender.com/api/course"
+const baseUrlUpload = "https://courses-fig4.onrender.com/upload"
 
 
 
